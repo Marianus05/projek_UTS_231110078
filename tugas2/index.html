@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Jadwal Pendadaran Mahasiswa</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #ffffffd9;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            margin-top: 0;
+            text-align: center;
+            color: #444;
+        }
+
+        .info {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #333;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        th {
+            background-color: #ffe0c2;
+            color: #333;
+        }
+
+        .btn {
+            padding: 6px 12px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .edit-btn {
+            background-color: #4da6ff;
+            color: white;
+        }
+
+        .delete-btn {
+            background-color: #ff4d4d;
+            color: white;
+        }
+
+        .edit-btn:hover {
+            background-color: #3399ff;
+        }
+
+        .delete-btn:hover {
+            background-color: #e60000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="info">
+            <p><strong>Nama Mahasiswa:</strong> Marianus Belarminus Pada</p>
+            <p><strong>NIM Mahasiswa:</strong> 231110078</p>
+        </div>
+
+        <h2>Jadwal Pendadaran Mahasiswa</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                    <th>Jurusan</th>
+                    <th>Waktu</th>
+                    <th>Dosen Penguji</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marianus Belarminus Pada</td>
+                    <td>231110078</td>
+                    <td>Informatika</td>
+                    <td>25 April 2025, Pukul 11:00</td>
+                    <td>Bapak Mutaqin Akbar</td>
+                    <td>
+                        <button class="btn edit-btn">Edit</button>
+                        <button class="btn delete-btn">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marianus Belarminus Pada</td>
+                    <td>231110078</td>
+                    <td>Informatika</td>
+                    <td>28 April 2025, Pukul 13:00</td>
+                    <td>Bapak Supatman</td>
+                    <td>
+                        <button class="btn edit-btn">Edit</button>
+                        <button class="btn delete-btn">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marianus Belarminus Pada</td>
+                    <td>231110078</td>
+                    <td>Informatika</td>
+                    <td>24 April 2025, Pukul 09:00</td>
+                    <td>Bapak Iman Suharjo</td>
+                    <td>
+                        <button class="btn edit-btn">Edit</button>
+                        <button class="btn delete-btn">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
